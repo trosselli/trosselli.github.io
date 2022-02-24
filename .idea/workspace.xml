@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f275a106-d49a-4035-af82-931d2a50f985" name="Changes" comment="Finished Product">
-      <change afterPath="$PROJECT_DIR$/rosselli32141/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rosselli32141/pageNotFound.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rosselli32141/rosselli32141.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404-featured.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/404-featured.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beach.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/beach.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/griffith.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/griffith.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hollywood.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/hollywood.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lasky.png" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/lasky.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mountains.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/mountains.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rodeo-drive.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/rodeo-drive.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rosselli32141.html" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/rosselli32141.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/universalstudios.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/universalstudios.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rosselli32141/rosselli32141.html" beforeDir="false" afterPath="$PROJECT_DIR$/rosselli32141/rosselli32141.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +66,7 @@
       <workItem from="1642117679937" duration="1402000" />
       <workItem from="1643931189911" duration="666000" />
       <workItem from="1645078214775" duration="6817000" />
-      <workItem from="1645647084382" duration="38757000" />
+      <workItem from="1645647084382" duration="39018000" />
     </task>
     <task id="LOCAL-00001" summary="making progress">
       <created>1645648629033</created>
@@ -102,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645659831220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished Product">
+      <created>1645735967364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645735967364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
