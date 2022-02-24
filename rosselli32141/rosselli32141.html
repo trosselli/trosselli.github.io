@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 1</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+    <body>
+    <script type="text/javascript" charset="utf-8">
+
+        fetch('data.json')
+            .then(function (response) {
+                return response.json();
+            }).then(function (apiJsonData) {
+            document.getElementById("griffithHeading").innerText =  apiJsonData.section2[0].heading;
+            document.getElementById("griffithPhoto").src =  apiJsonData.section2[0].image;
+            document.getElementById("griffithDescription").innerText =  apiJsonData.section2[0].text;
+            document.getElementById("mountainsHeading").innerText =  apiJsonData.section2[1].heading;
+            document.getElementById("mountainsPhoto").src =  apiJsonData.section2[1].image;
+            document.getElementById("mountainsDescription").innerText =  apiJsonData.section2[1].text;
+            document.getElementById("universalHeading").innerText =  apiJsonData.section2[2].heading;
+            document.getElementById("universalPhoto").src =  apiJsonData.section2[2].image;
+            document.getElementById("universalDescription").innerText =  apiJsonData.section2[2].text;
+            document.getElementById('la_text1').innerText = apiJsonData.section3.text[0];
+            document.getElementById('la_text2').innerText = apiJsonData.section3.text[1];
+            document.getElementById("hollywoodHeading").innerText =  apiJsonData.section4[0].heading;
+            document.getElementById("hollywoodPhoto").src =  apiJsonData.section4[0].image;
+            document.getElementById("hollywoodDescription").innerText =  apiJsonData.section4[0].text;
+            document.getElementById("beachesHeading").innerText =  apiJsonData.section4[1].heading;
+            document.getElementById("beachesPhoto").src =  apiJsonData.section4[1].image;
+            document.getElementById("beachesDescription").innerText =  apiJsonData.section4[1].text;
+        })
+
+    </script>
+    <div class="nav">
+        <div class="nav_center">
+            <a href="rosselli32141.html" style="float:left;">Home</a>
+            <a href="pageNotFound.html">Explore</a>
+            <a href="pageNotFound.html" style="float:right;">Contact</a>
+        </div>
+    </div>
+        <div class="image_container">
+            <div class="image_words">LA - The city of Los Angeles</div>
+            <img src="rodeo-drive.jpeg" >
+        </div>
+        <div class="visiting-cites">
+
+                <div class="pic_with_words">
+                    <img id="griffithPhoto"  >
+                    <p id="griffithHeading"> </p>
+                    <div id="griffithDescription"></div>
+                </div>
+                <div class="pic_with_words">
+
+                    <img id="mountainsPhoto" >
+                    <p id="mountainsHeading">Mountains</p>
+                    <div id="mountainsDescription"></div>
+                </div>
+                <div class="pic_with_words">
+                    <img id="universalPhoto" >
+                    <p id="universalHeading"></p>
+                    <div id="universalDescription">
+                    </div>
+                </div>
+
+        </div>
+        <div class="dt_container">
+            <div class="dt_block" id="dtla_details">
+                <p id="la_text1"></p>
+                <p id="la_text2"></p>
+            </div>
+            <div class="dt_block" id="dtla_image">
+                <img src="../lasky.png" >
+            </div>
+        </div>
+        <div class="inline_block_container">
+            <div class="inline_block">
+                <div class="image">
+                    <img id="hollywoodPhoto" >
+                </div>
+                <div class="inline_block_uppertext">
+                    <h2 id="hollywoodHeading" ></h2>
+                    <p id="hollywoodDescription">
+                    </p>
+                </div>
+
+            </div>
+            <br><br><br>
+
+
+            <div class="inline_block">
+                <div class="inline_block_lowertext" >
+                    <h2 id="beachesHeading" ></h2>
+                    <p id="beachesDescription" >
+                </div>
+                <img id="beachesPhoto" style="float:left" >
+
+            </div>
+        </div>
+        <footer>
+            <div class="footerContent">
+                <div class="quote"><br><br>
+                    <p>
+                        Tip the world over on it's side and everything loose will land in Los Angeles
+                    </p>
+                    <p>
+                        -Frank Loyde Wright
+                    </p>
+                </div>
+                <div class="quote">
+                    <h2>Designed By</h2>
+                    <H3>Tyler Rosselli</H3>
+                    <p><a href = "mailto: trossell@usc.edu">trossell@usc.edu</a><br><a href = "tel: 925-788-7070" >(925)-788-7070</a></p>
+                    <!-- <p><a href = "tel: 925-788-7070" >(925)-788-7070</a></p>-->
+                </div>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>
