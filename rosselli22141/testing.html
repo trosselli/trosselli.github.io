@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Blood Pressure Website</title>
+        <style>
+            .materialGirl{
+                text-align:center;
+            }
+            .materialGirl h1, h2{
+                color:#7d0503;
+            }
+            .materialGirl label{
+                display: inline-block;
+            }
+            .form-submit-button {
+                background: #0066A2;
+                color: white;
+                border-style: outset;
+                border-color: #0066A2;
+                height: 30px;
+                width: 75px;
+                font: bold15px arial,sans-serif;
+                text-shadow: none;
+            }
+            span{
+                color:red;
+            }
+        </style>
+        <script>
+            function funcItUp(){
+                var age = document.getElementById("age").value
+                var weight = document.getElementById("weight").value
+                if(age == ""){
+                    alert("Please enter an age")
+                    return false;
+                }
+                else if(weight == ""){
+                    alert("Please enter a weight")
+                    return false;
+                }
+                else if(age === 'e' || weight === 'e' || age < 1 || weight < 1){
+                    alert("Please enter a valid input, no negative numbers")
+                    return false;
+                }
+                else{
+                    return true
+                }
+            }
+
+
+
+
+        </script>
+
+    </head>
+    <body>
+        <div class="materialGirl">
+            <h1>Blood Pressure Predictor</h1>
+            <h2> Fill out form to get you Blood Pressure estimate!</h2>
+            <form onSubmit="return funcItUp()" action="/response" method="POST" name="form" id="form">
+                <label for="fname">Age<span>*</span>: </label>
+                <input type="number" id="age" name="age" placeholder="Enter age in years"><br><br>
+                <label for="lname">Weight<span>*</span>:</label>
+                <input type="number" id="weight" name="weight" placeholder="Enter Weight in kg"><br><br>
+                <input type="submit" value="Calculate" class="form-submit-button">
+            </form>
+                {% if prediction %}
+                <h3>{{prediction}} </h3>
+                {% endif %}
+
+
+    </div>
+    </body>
+</html>
